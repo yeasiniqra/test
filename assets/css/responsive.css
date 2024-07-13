@@ -140,23 +140,15 @@
 
 @media all and (max-width: 767px) {
   .pepelord-img img {
-    width: 360px;
+    max-width: 460px;
     height: auto;
   }
-  .pepelord-img {
-    width: 381px;
-    height: 381px;
+  .pepelord {
+    margin-top: 60px;
   }
 }
 
 @media all and (max-width: 575px) {
-  .pepelord-img {
-    width: 320px;
-    height: 320px;
-  }
-  .pepelord-img img {
-    width: 260px;
-  }
   .pepelord-text h1 {
     font-size: 55px;
     -webkit-text-stroke: 3px rgb(36, 99, 42);
@@ -283,9 +275,7 @@
     right: 25px;
     top: -167px;
     width: 35px;
-}
-
-
+  }
 }
 
 @media all and (max-width: 413px) {

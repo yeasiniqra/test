@@ -291,21 +291,12 @@ body {
 
 .pepelord {
   text-align: center;
-  margin-top: 117px;
-}
-
-.pepelord-img {
-  width: 668px;
-  height: 668px;
-  margin: auto;
-  border-radius: 50%;
-  background: linear-gradient(180deg, #74c37b 0%, #21a92e 100%);
+  margin-top: 115px;
 }
 
 .pepelord-img img {
-  width: 653px;
-  height: 636px;
-  margin-top: 69px;
+  max-width: 663px;
+  width: 100%;
 }
 
 .pepelord-text h1 {
@@ -519,7 +510,7 @@ body {
 /**************************************/
 /************ noble family Area*************/
 /************************************/
-.noble-family-header{
+.noble-family-header {
   position: relative;
 }
 .buys {
@@ -528,7 +519,6 @@ body {
   top: -345px;
   width: 66px;
 }
-
 
 .noble-family-header h1 {
   font-family: "Irish Grover", system-ui;
