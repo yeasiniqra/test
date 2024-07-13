@@ -1,0 +1,692 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+span,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  background: transparent;
+}
+
+p a {
+  background: transparent !important;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+textarea {
+  outline: none !important;
+}
+
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+a {
+  outline: none !important;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden] {
+  display: none;
+}
+
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+mark {
+  background-color: #a7f4f6;
+  color: #555;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  outline: none !important;
+}
+
+input {
+  outline: none !important;
+}
+
+textarea {
+  outline: none !important;
+}
+
+/******************************** End default css*******************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  background: #36843d;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/**************************************/
+/************ Header  Area*************/
+/************************************/
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+
+.menu ul li a {
+  background-color: #114516;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.menu ul li a i {
+  font-size: 25px;
+}
+
+.nav-btn {
+  text-align: center;
+}
+
+.nav-btn img {
+  width: 150px;
+  object-fit: cover;
+}
+
+/**************************************/
+/************ Banner Area*************/
+/************************************/
+.hero-banner-area {
+  position: relative;
+  background: #236129;
+  z-index: 1;
+}
+.hero-banner-area:after {
+  position: absolute;
+  content: "";
+  background: url(../images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 2000px;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.pepelord {
+  text-align: center;
+  margin-top: 117px;
+}
+
+.pepelord-img {
+  width: 668px;
+  height: 668px;
+  margin: auto;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #74c37b 0%, #21a92e 100%);
+}
+
+.pepelord-img img {
+  width: 653px;
+  height: 636px;
+  margin-top: 69px;
+}
+
+.pepelord-text h1 {
+  font-family: "Irish Grover", system-ui;
+  font-size: 190px;
+  font-weight: 400;
+  line-height: 229.71px;
+  color: #fff;
+  -webkit-text-stroke: 12px rgba(36, 99, 42, 1);
+  padding-top: 19px;
+}
+
+.pepelord-text h2 {
+  font-family: "Gochi Hand", cursive;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70.72px;
+  color: #ffffff;
+}
+
+.pepelord-text img {
+  width: 83px;
+  height: 83px;
+  margin-top: 58px;
+  margin-left: 33px;
+  margin-bottom: 110px;
+}
+
+.pepelord-text h3 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 61.29px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  width: 75%;
+}
+
+.pepelord-text p {
+  font-family: "Gochi Hand", cursive;
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 61.29px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+  width: 75%;
+  margin-top: 50px;
+}
+
+.pepelord-btn {
+  max-width: 700px;
+  margin: 125px auto 0 auto;
+  text-align: center;
+  padding-bottom: 101px;
+}
+
+.pepelord-btn img {
+  width: 100%;
+  object-fit: cover;
+}
+.top-img {
+  width: 100%;
+  margin-top: -20px;
+}
+
+/**************************************/
+/************ Tokenomics area*************/
+/************************************/
+.tokenomics__area {
+  background: radial-gradient(
+    60.63% 44.86% at 85.98% 66.5%,
+    #196720 0%,
+    #114516 100%
+  );
+  position: relative;
+  z-index: 1;
+}
+.tokenomics__area:after {
+  position: absolute;
+  content: "";
+  width: 65px;
+  height: 370px;
+  background: url(../images/shape1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  top: 120px;
+  right: 6%;
+  z-index: -1;
+}
+
+.bottom-img img {
+  width: 100%;
+  margin-bottom: -20px;
+}
+.tokenomics-header {
+  padding-top: 81px;
+}
+
+.tokenomics-header h1 {
+  font-family: "Irish Grover", system-ui;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 181.35px;
+  color: #fff;
+  -webkit-text-stroke: 8px #045c62;
+  padding-top: 19px;
+  text-align: center;
+}
+
+.tokenomics-header p {
+  font-family: "Gochi Hand", cursive;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+  margin: 69px 0;
+}
+
+.tokenomics-main {
+  display: flex;
+}
+
+.tokenomics-cards {
+  max-width: 1170px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+}
+.tokenomics-cards::after {
+  position: absolute;
+  content: "";
+  background: url(../images/tokenomics.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 457px;
+  height: 640px;
+  left: -368px;
+  top: 0px;
+  z-index: -1;
+}
+
+.tokenomic-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.card-item {
+  width: 50%;
+  padding: 0 20px;
+  height: 100%;
+}
+
+.card {
+  background-color: #236129;
+  padding: 47px 49px 46px 48px;
+}
+
+.card h3 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 40.08px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.card h1 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 75.44px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.second-card {
+  padding: 47px 414px 46px 52px;
+}
+
+.third-card {
+  padding: 54px 75px;
+  background-color: #236129;
+  margin-top: 52px;
+}
+
+.third-card h1 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+}
+
+.tokenomic-btn {
+  margin: 116px auto 263px auto;
+  text-align: center;
+}
+
+.tokenomic-btn img {
+  width: 274px;
+  object-fit: cover;
+}
+
+/**************************************/
+/************ noble family Area*************/
+/************************************/
+.noble-family-header{
+  position: relative;
+}
+.buys {
+  position: absolute;
+  right: 70px;
+  top: -345px;
+  width: 66px;
+}
+
+
+.noble-family-header h1 {
+  font-family: "Irish Grover", system-ui;
+  font-size: 150px;
+  font-weight: 400;
+  line-height: 181.35px;
+  color: #fff;
+  -webkit-text-stroke: 8px #0b8189;
+  text-align: center;
+}
+
+.noble-family-header h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70.72px;
+  text-align: center;
+  color: #fff;
+  margin: 11px 0 77px 0;
+}
+
+.noble-family-card {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-right: -30px;
+  position: relative;
+}
+
+.noble-family-card .buys {
+  left: -60px;
+  right: 0;
+  top: 0;
+}
+
+.noble-family {
+  width: 33.33%;
+  padding: 0 30px;
+}
+
+.noble-family-img {
+  background-color: #236129;
+  width: 100%;
+}
+
+.noble-family-img img {
+  padding: 38px 24px 0 9px;
+  width: 100%;
+}
+
+.noble-family h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50px;
+  text-align: center;
+  color: #fff;
+  margin: 32px 0 24px 0;
+}
+
+.noble-four-card img {
+  background: none;
+}
+
+.join-the-commumity h1 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70.72px;
+  text-align: center;
+  color: #fff;
+  margin: 64px 0 33px 0;
+}
+.join-the-commumity ul {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+}
+.join-the-commumity ul li a {
+  background-color: #114516;
+  height: 154px;
+  width: 154px;
+  border-radius: 50%;
+  color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.join-the-commumity ul li a i {
+  font-size: 80px;
+}
+
+/**************************************/
+/************ noble exchange Area*************/
+/************************************/
+.exchange-area {
+  background: #103f15;
+  padding-top: 186px;
+}
+.exchange-header h1 {
+  font-family: "Irish Grover", system-ui;
+  font-size: 170px;
+  font-weight: 400;
+  line-height: 205.53px;
+  color: #fff;
+  -webkit-text-stroke: 8px #0b8189;
+  text-align: center;
+}
+.exchange-header h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70.72px;
+  text-align: center;
+  color: #fff;
+  margin: 33px 0 88px 0;
+}
+.exchange-logo {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1600px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.gate-logo {
+  background-color: #236129;
+}
+.gate-logo img {
+  padding: 62px 64px 74px 130px;
+  object-fit: cover;
+}
+.brnad-logo {
+  width: 33.33%;
+  padding: 62px 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.brnad-logo:hover {
+  background: #236129;
+}
+.brnad-logo img {
+  max-width: 100%;
+  height: 72px;
+}
+
+/**************************************/
+/************ noble footer Area*************/
+/************************************/
+.footer {
+  background: #103f15;
+  padding: 177px 0 60px 0;
+}
+.footer h2 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 70.72px;
+  color: #fff;
+  text-align: center;
+}

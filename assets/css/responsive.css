@@ -1,0 +1,295 @@
+@media only screen and (min-width: 1921px) and (max-width: 4800px) {
+}
+@media only screen and (min-width: 1440px) and (max-width: 1599px) {
+}
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+}
+
+@media all and (max-width: 1199px) {
+  .card h1 {
+    font-size: 45px;
+    line-height: 1.3;
+  }
+  .card h3 {
+    font-size: 30px;
+  }
+  .noble-family-card {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .noble-family {
+    padding: 0 0;
+  }
+  .brnad-logo img {
+    height: 45px;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+@media all and (max-width: 1140px) {
+}
+
+@media all and (max-width: 991px) {
+  .pepelord-text h1 {
+    font-size: 120px;
+    line-height: 1.3;
+  }
+  .pepelord-text h2 {
+    font-size: 45px;
+    line-height: 1.3;
+  }
+  .pepelord-text h3 {
+    font-size: 40px;
+    line-height: 1.2;
+    width: 100%;
+  }
+  .pepelord-text p {
+    font-size: 38px;
+    line-height: 1.2;
+    width: 100%;
+  }
+  .tokenomics-header h1 {
+    font-size: 120px;
+    line-height: 1.2;
+  }
+  .tokenomics-header p {
+    font-size: 30px;
+    line-height: 1.2;
+    text-wrap: wrap;
+    word-wrap: break-word;
+  }
+  .tokenomic-card {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card-item {
+    width: 100%;
+    padding: 0;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .third-card h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .third-card {
+    margin-top: 0;
+  }
+  .card-item h3,
+  .card-item h1 {
+    text-align: center;
+  }
+  .second-card {
+    padding: 47px 0 46px 0;
+  }
+  .noble-family-header h1 {
+    font-size: 120px;
+    line-height: 1.2;
+  }
+  .noble-family {
+    width: 50%;
+    padding: 0 15px !important;
+  }
+  .noble-family-card {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .noble-family h2 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+  .join-the-commumity ul li a {
+    height: 88px;
+    width: 88px;
+  }
+  .join-the-commumity ul li a i {
+    font-size: 40px;
+  }
+  .exchange-header h1 {
+    font-size: 120px;
+    line-height: 1.2;
+  }
+  .brnad-logo {
+    padding: 30px 30px;
+  }
+  .exchange-header h2 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .footer h2 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .noble-family-header h2 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .join-the-commumity h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .pepelord-img img {
+    width: 360px;
+    height: auto;
+  }
+  .pepelord-img {
+    width: 381px;
+    height: 381px;
+  }
+}
+
+@media all and (max-width: 575px) {
+  .pepelord-img {
+    width: 320px;
+    height: 320px;
+  }
+  .pepelord-img img {
+    width: 260px;
+  }
+  .pepelord-text h1 {
+    font-size: 55px;
+    -webkit-text-stroke: 3px rgb(36, 99, 42);
+  }
+  .pepelord-text h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .pepelord-text img {
+    width: 60px;
+    height: 60px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  .pepelord-text h3 {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  .pepelord-text p {
+    font-size: 30px;
+  }
+  .pepelord-btn {
+    margin: 40px auto 0 auto;
+  }
+  .tokenomics-header h1 {
+    font-size: 55px;
+    -webkit-text-stroke: 3px #045c62;
+  }
+  .top-img {
+    height: 120px;
+    object-fit: cover;
+  }
+  .tokenomics-header p {
+    font-size: 25px;
+  }
+  .card {
+    padding: 20px;
+  }
+  .card h3 {
+    font-size: 25px;
+  }
+  .card h1 {
+    font-size: 30px;
+  }
+  .third-card {
+    padding: 20px;
+  }
+  .third-card h1 {
+    font-size: 30px;
+  }
+  .noble-family-header h1 {
+    font-size: 55px;
+    -webkit-text-stroke: 3px #0b8189;
+  }
+  .tokenomic-btn img {
+    width: 160px;
+  }
+  .tokenomic-btn {
+    margin: 40px auto 60px auto;
+  }
+  .noble-family-header h2 {
+    font-size: 30px;
+  }
+  .noble-family {
+    width: 100%;
+    padding: 0 !important;
+  }
+  .noble-family h2 {
+    font-size: 25px;
+  }
+  .join-the-commumity h1 {
+    font-size: 30px;
+  }
+  .join-the-commumity ul li a {
+    height: 60px;
+    width: 60px;
+  }
+  .join-the-commumity ul li a i {
+    font-size: 25px;
+  }
+  .bottom-img img {
+    height: 120px;
+    object-fit: cover;
+  }
+  .exchange-header h1 {
+    font-size: 55px;
+    -webkit-text-stroke: 3px #0b8189;
+  }
+  .brnad-logo {
+    width: 50%;
+  }
+  .brnad-logo img {
+    height: auto;
+  }
+  .exchange-header h2 {
+    font-size: 30px;
+    margin: 33px 0 40px 0;
+  }
+  .menu ul li a {
+    height: 45px;
+    width: 45px;
+  }
+  .menu ul li a i {
+    font-size: 20px;
+  }
+  .tokenomics-header {
+    padding-top: 0;
+  }
+  .nav-btn img {
+    width: 120px;
+  }
+  .exchange-area {
+    padding-top: 60px;
+  }
+  .footer {
+    padding: 60px 0 20px 0;
+  }
+  .footer h2 {
+    font-size: 30px;
+  }
+  .buys {
+    position: absolute;
+    right: 25px;
+    top: -167px;
+    width: 35px;
+}
+
+
+}
+
+@media all and (max-width: 413px) {
+}
+
+@media all and (max-width: 374px) {
+}
